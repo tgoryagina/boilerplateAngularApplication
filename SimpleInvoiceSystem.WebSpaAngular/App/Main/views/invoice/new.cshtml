@@ -1,0 +1,56 @@
+﻿<div ng-controller="app.views.newinvoice as vm">
+    <h1>@L("NewInvoicePageTitile")</h1>
+    <div class="row">
+        <div class="col-md-8">
+            <button class="btn navbar-btn btn-xs btn-primary" ng-click="vm.addOrEditInvoice()">
+                <i class="glyphicon glyphicon-plus"></i>
+            </button>
+            <table class="table table-striped bg-white b-a">
+                <thead>
+                    <tr>
+                        <th style="width: 80px">@L("Quantity")</th>
+                        <th>@L("ProductName")</th>
+                        <th style="width: 140px">@L("ProductPrice")</th>
+                        <th style="width: 90px">@L("TotalPrice")</th>
+                        <th style="width: 20px"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="productInvoice in vm.invoices">
+                        <td>
+                            <label id="inputProductQuantity" class="form-control" ng-model="productInvoice.quantity"/>
+                        </td>
+                        <td>
+                            <select id="InvoiceProduct" class="form-control" ng-model="productInvoice.productId" ng-options="product.id as product.name for product in vm.products">
+                                <option value="">@L("SelectProduct")</option>
+                            </select>
+                        </td>
+                        <td>
+                            <div class="row vertical-align">
+                                <div class="col-sm-2 vcenter">
+                                    <label>$</label>
+                                </div>
+                                <div class="col-sm-4 vcenter">
+                                    <label id="inputProductPrice" ng-model="vm.invoice.Product.Price"/>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            ${{productInvoice.Price}}
+                        </td>
+                        <td>
+                            <button class="btn navbar-btn btn-xs btn-primary" ng-click="vm.deleteInvoice(productInvoice)">
+                                <i class="glyphicon glyphicon-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-right no-border"><strong>@L("TotalPrice")</strong></td>
+                        <td><strong>{{vm.totalPrice}}</strong></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

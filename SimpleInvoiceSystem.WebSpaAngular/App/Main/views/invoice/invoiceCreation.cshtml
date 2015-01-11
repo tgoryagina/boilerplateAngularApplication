@@ -1,0 +1,31 @@
+﻿<div class="modal-content dailog" ng-controller="app.views.editinvoice as vm">
+    <div class="modal-header">
+        <h4 >@L("NewInvoicePageTitile")</h4>
+    </div>
+    <div class="modal-body">
+        <div class="form-horizontal" ng-form='editItemForm'>
+
+            <div class="form-group">
+                <label class="col-lg-2 control-label">@L("Quantity")</label>
+                <div class="col-lg-2">
+                    <input type="number" min="1" id="inputProductQuantity" name="inputProductQuantity" class="form-control" ng-model="vm.invoice.Count" required />
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label  class="col-lg-2 control-label">@L("Product") </label>
+                <div class="col-lg-6">
+                    <select id="InvoiceProduct" class="form-control" ng-model="vm.invoice.ProductId" ng-options="product.id as product.name for product in vm.products">
+                        <option value="">@L("SelectProduct")</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button ng-click="vm.save()" class="btn btn-success">@L("SaveInvoicePageTitile")</button>
+        <button ng-click="vm.cancel()" class="btn btn-default">@L("CancelInvoicePageTitile")</button>
+    </div>
+</div>
