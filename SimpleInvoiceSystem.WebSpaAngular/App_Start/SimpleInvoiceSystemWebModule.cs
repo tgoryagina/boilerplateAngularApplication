@@ -6,6 +6,7 @@ using System.Web.Routing;
 using Abp.Localization;
 using Abp.Localization.Sources.Xml;
 using Abp.Modules;
+using SimpleInvoiceSystem.Data;
 
 namespace SimpleInvoiceSystem.WebSpaAngular
 {

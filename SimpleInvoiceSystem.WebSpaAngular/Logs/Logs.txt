@@ -3762,3 +3762,175 @@ DEBUG 2015-01-11 21:03:45,075 [1    ] Default                                  -
 DEBUG 2015-01-11 21:03:45,078 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.People.IPersonAppService' with service name 'invoicesystem/person'.
 DEBUG 2015-01-11 21:03:45,081 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Products.IProductAppService' with service name 'invoicesystem/product'.
 DEBUG 2015-01-11 21:03:45,083 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Tasks.ITaskAppService' with service name 'invoicesystem/task'.
+DEBUG 2015-01-11 22:13:30,437 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-11 22:13:34,319 [1    ] Abp.Modules.DefaultModuleFinder          - Found 12 ABP modules in total.
+DEBUG 2015-01-11 22:15:28,325 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-11 22:15:31,951 [1    ] Abp.Modules.DefaultModuleFinder          - Found 12 ABP modules in total.
+DEBUG 2015-01-11 22:15:31,956 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.NHibernate.AbpNHibernateModule, Abp.NHibernate, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemApplicationModule, SimpleInvoiceSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemCoreModule, SimpleInvoiceSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.Data.SimpleInvoiceSystemDataModule, SimpleInvoiceSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemDataModule, SimpleInvoiceSystem.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemWebApiModule, SimpleInvoiceSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,959 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.WebSpaAngular.SimpleInvoiceSystemWebModule, SimpleInvoiceSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:15:31,963 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2015-01-11 22:15:32,673 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Invoices.IInvoiceAppService' with service name 'invoicesystem/invoice'.
+DEBUG 2015-01-11 22:15:32,675 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.People.IPersonAppService' with service name 'invoicesystem/person'.
+DEBUG 2015-01-11 22:15:32,677 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Products.IProductAppService' with service name 'invoicesystem/product'.
+DEBUG 2015-01-11 22:15:32,680 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Tasks.ITaskAppService' with service name 'invoicesystem/task'.
+DEBUG 2015-01-11 22:20:24,324 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-11 22:20:29,249 [1    ] Abp.Modules.DefaultModuleFinder          - Found 12 ABP modules in total.
+DEBUG 2015-01-11 22:20:29,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.NHibernate.AbpNHibernateModule, Abp.NHibernate, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemApplicationModule, SimpleInvoiceSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemCoreModule, SimpleInvoiceSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.Data.SimpleInvoiceSystemDataModule, SimpleInvoiceSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemDataModule, SimpleInvoiceSystem.NHibernate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.SimpleInvoiceSystemWebApiModule, SimpleInvoiceSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleInvoiceSystem.WebSpaAngular.SimpleInvoiceSystemWebModule, SimpleInvoiceSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-11 22:20:29,261 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2015-01-11 22:20:29,995 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Invoices.IInvoiceAppService' with service name 'invoicesystem/invoice'.
+DEBUG 2015-01-11 22:20:29,998 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.People.IPersonAppService' with service name 'invoicesystem/person'.
+DEBUG 2015-01-11 22:20:30,001 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Products.IProductAppService' with service name 'invoicesystem/product'.
+DEBUG 2015-01-11 22:20:30,004 [1    ] Default                                  - Dynamic web api controller is created for type 'SimpleInvoiceSystem.Tasks.ITaskAppService' with service name 'invoicesystem/task'.
+INFO  2015-01-11 22:23:44,896 [5    ] InvoiceSystem.Invoices.InvoiceAppService - Creating a invoice for input: [CreateInvoiceInput > ProductId = 2, Count = 1]
+ERROR 2015-01-11 22:23:45,445 [5    ] NHibernate.AdoNet.AbstractBatcher        - Could not execute query: INSERT INTO Invoices (Quantity, CreationTime, ProductId) VALUES (@p0, @p1, @p2); select SCOPE_IDENTITY()
+System.Data.SqlClient.SqlException (0x80131904): Не удалось вставить значение NULL в столбец "Id", таблицы "SimpleInvoiceSystemDb.dbo.Invoices"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+ClientConnectionId:45043869-4d0f-410e-a1e4-a54464a1d87f
+WARN  2015-01-11 22:23:45,526 [5    ] NHibernate.Util.ADOExceptionReporter     - System.Data.SqlClient.SqlException (0x80131904): Не удалось вставить значение NULL в столбец "Id", таблицы "SimpleInvoiceSystemDb.dbo.Invoices"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+ClientConnectionId:45043869-4d0f-410e-a1e4-a54464a1d87f
+ERROR 2015-01-11 22:23:45,527 [5    ] NHibernate.Util.ADOExceptionReporter     - Не удалось вставить значение NULL в столбец "Id", таблицы "SimpleInvoiceSystemDb.dbo.Invoices"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+ERROR 2015-01-11 22:24:03,686 [11   ] Default                                  - NHibernate.Exceptions.GenericADOException: could not insert: [SimpleInvoiceSystem.Invoice][SQL: INSERT INTO Invoices (Quantity, CreationTime, ProductId) VALUES (?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Не удалось вставить значение NULL в столбец "Id", таблицы "SimpleInvoiceSystemDb.dbo.Invoices"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy_1.CreateInvoice(CreateInvoiceInput input)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClassc.<GetExecutor>b__6(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Selectors.DyanamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+NHibernate.Exceptions.GenericADOException: could not insert: [SimpleInvoiceSystem.Invoice][SQL: INSERT INTO Invoices (Quantity, CreationTime, ProductId) VALUES (?, ?, ?); select SCOPE_IDENTITY()] ---> System.Data.SqlClient.SqlException: Не удалось вставить значение NULL в столбец "Id", таблицы "SimpleInvoiceSystemDb.dbo.Invoices"; в столбце запрещены значения NULL. Ошибка в INSERT.
+Выполнение данной инструкции было прервано.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   at NHibernate.Id.IdentityGenerator.InsertSelectDelegate.ExecuteAndExtract(IDbCommand insert, ISessionImplementor session)
+   at NHibernate.Id.Insert.AbstractReturningDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy_1.CreateInvoice(CreateInvoiceInput input)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClassc.<GetExecutor>b__6(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Selectors.DyanamicHttpActionDescriptor.<ExecuteAsync>b__0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()

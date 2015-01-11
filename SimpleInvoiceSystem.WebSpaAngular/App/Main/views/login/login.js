@@ -37,7 +37,7 @@
                 abp.ui.setBusy(
                     null,
                     result.then(function(result) {
-                        if (result.success) {
+                        if (result.data === "True") {
                             $location.path('/newInvoice');
                         } else {
                             $scope.loginForm.loginFailure = true; //TODO: show in UI login error
@@ -48,7 +48,7 @@
             };
 
             $scope.go = function() {
-                $location.path('/newInvoice');
+                $location.path('/register');
             };
         }
     ]);

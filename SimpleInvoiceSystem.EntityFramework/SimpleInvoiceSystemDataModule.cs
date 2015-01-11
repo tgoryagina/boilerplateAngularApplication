@@ -3,7 +3,7 @@ using Abp.EntityFramework;
 using Abp.Modules;
 using SimpleInvoiceSystem;
 
-namespace SimpleInvoiceSystem
+namespace SimpleInvoiceSystem.Data
 {
     [DependsOn(typeof(SimpleInvoiceSystemCoreModule), typeof(AbpEntityFrameworkModule))]
     public class SimpleInvoiceSystemDataModule : AbpModule
